@@ -1,3 +1,8 @@
+html {
+    margin:0;
+    padding:0;  
+}
+
 h2{
     color:#fff;
 }
@@ -5,8 +10,52 @@ h2{
 .logo img{
     width: 50px;
 }
-.button img{
+
+button{
+
+    border-radius:6px;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5rem;
+}
+.nav-button img{
     width: 50px;
     border-radius: 50%;
-    display: ;
+    
+}
+body{
+    background-color: #CFDEF3;
+}
+section{
+    margin-top: 30px;
+}
+
+.data-items{
+    border-radius: 13px;
+}
+.card-title{
+    color: #849AA9;
+}
+.count-text{
+    font-size: x-large;
+    font-family: 'Lato', sans-serif;    
+}
+.count-percentage{
+    font-size: smaller;
+    margin-top: 15px;
+    font-family: 'Lato', sans-serif;
+    
+}
+.divcls{
+    background-color: #fff;
+    border-radius: 7px;
+}
+.btncls{
+    background-color:#ACD3FF;
+    border: none;
+    border-radius: 10px;
+    width: 90%;
+    height: 59px;
+}
+.text-text{
+    font-family: 'Lato', sans-serif;
 }
